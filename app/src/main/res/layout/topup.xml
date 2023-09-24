@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/topupTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="@string/topupTitle"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <EditText
+        android:id="@+id/topupInput"
+        android:layout_width="265dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Enter your amount"
+        android:inputType="text"
+        android:text="@string/topupInput"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topupTitle"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/minReload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minReload"
+        android:textColor="@color/smalltitle"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.248"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topupInput"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/rm100Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/rm100Btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minReload" />
+
+    <Button
+        android:id="@+id/rm200Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/rm200Btn"
+        app:layout_constraintStart_toEndOf="@+id/rm100Btn"
+        app:layout_constraintTop_toBottomOf="@+id/minReload" />
+
+    <Button
+        android:id="@+id/rm300Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/rm300Btn"
+        app:layout_constraintStart_toEndOf="@+id/rm200Btn"
+        app:layout_constraintTop_toBottomOf="@+id/minReload" />
+
+    <Button
+        android:id="@+id/rm400Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/rm400Btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rm100Btn" />
+
+    <Button
+        android:id="@+id/rm500Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/rm500Btn"
+        app:layout_constraintStart_toEndOf="@+id/rm400Btn"
+        app:layout_constraintTop_toBottomOf="@+id/rm200Btn" />
+
+    <Button
+        android:id="@+id/rm600Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/rm600Btn"
+        app:layout_constraintStart_toEndOf="@+id/rm500Btn"
+        app:layout_constraintTop_toBottomOf="@+id/rm300Btn" />
+
+    <Button
+        android:id="@+id/reloadBtn"
+        android:layout_width="205dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="88dp"
+        android:text="@string/reloadBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

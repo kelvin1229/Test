@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="topupTitle">Top Up</string>
+    <string name="topupInput" />
+    <string name="minReload">Min.Reload Amount Is Rm100</string>
+    <string name="addCard">Add Card</string>
+    <string name="cardTypeTitle">Card Type</string>
+    <string name="cardNumberTitle">Card Number</string>
+    <string name="cardNumInput">Card Number</string>
+    <string name="expiryDateTitle">Expiry Date</string>
+    <string name="expiryDateInput">MM / YY</string>
+    <string name="secureCodeTitle">Secure Code</string>
+    <string name="secureCodeInput">***</string>
+    <string name="cardSaveBtn">Save</string>
+    <string name="rm100Btn">Rm 100</string>
+    <string name="rm200Btn">Rm 200</string>
+    <string name="rm300Btn">Rm 300</string>
+    <string name="rm400Btn">Rm 400</string>
+    <string name="rm500Btn">Rm 500</string>
+    <string name="rm600Btn">Rm 600</string>
+    <string name="reloadBtn">Reload</string>
+    <string name="transferTitle">Transfer</string>
+    <string name="phoneNumInput">Enter Your Phone Number</string>
+    <string name="nextBtn">Next</string>
+    <string name="transferAmountInput">Rm</string>
+    <string name="confirmBtn">Confirm</string>
+    <string name="transfer200">Rm 200</string>
+    <string name="transfer300">Rm 300</string>
+    <string name="transfer400">Rm 400</string>
+    <string name="cardType">Choose card type</string>
+    <string name="cardImg">Card Image</string>
+    <string name="userTransfer" />
+    <string name="pinTitle">Enter Your PIN</string>
+    <string name="enterPinTitle">Set Your PIN</string>
+    <string name="pinBtn">Confirm</string>
+    <string name="walletTitle">Wallet</string>
+    <string name="balanceTitle" />
+    <string name="mycardTitle">My Cards</string>
+    <string name="recentTransactionTitle">Recent Transaction</string>
+    <string name="seeAllTitle">See All</string>
+
+
+    <string-array name="cardType">
+        <item>Visa</item>
+        <item>Mastercard</item>
+    </string-array>
+
+</resources>
